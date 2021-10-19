@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.insta-head{
+  display: block;
+  font-family: 'Mountains of Christmas', cursive;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 45px;
+  text-align: center;
+  color: #2fbfce;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  width: 26vw;
+  height: 5.1rem;
+  margin-left: 2.3rem;
+  margin-bottom: -1.6rem;
+  border-radius: 20px;
+  padding-top: 8px;
+}
+
+body{
+  background-color: #f8f9fa;
+/* background-image: linear-gradient(90deg, #f8f9fa 0%, #97D9E1 100%); */
+}
+  #wrappers {
+    width: 500px;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+  }
+  
+  .main-contents {
+    width: 400px;
+    height: 40%;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  .headers {
+    border: 0px solid #000;
+    margin-bottom: 5px;
+  }
+  
+  .headers img {
+    height: 50px;
+    width: 175px;
+    margin: auto;
+    position: relative;
+    left: 70px;
+  }
+  
+  .input-1s,
+  .input-2s {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  
+  .overlap-text {
+    position: relative;
+  }
+  
+  .overlap-text a {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: -1px;
+  }
+  
+  .btn {
+    width: 100%;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .sub-contents {
+    width: 400px;
+    height: 40%;
+    margin: 10px auto;
+    border: 1px solid #e6e6e6;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  .s-parts {
+    text-align: center;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+  }
+  
+  .s-parts a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

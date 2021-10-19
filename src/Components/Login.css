@@ -1,0 +1,234 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.insta-heading{
+  display: block;
+  font-family: 'Mountains of Christmas', cursive;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 45px;
+  text-align: center;
+  color: #2fbfce;
+  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+  width: 24.4vw;
+  height: 4rem;
+  margin-bottom: 22rem;
+  margin-right: -22.1rem;
+  z-index: 3;
+  border-radius: 20px;
+  padding-top: 8px;
+}
+body{
+  background-color: #f8f9fa
+/* background-image: linear-gradient(90deg, #f8f9fa 0%, #97D9E1 100%); */
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* width: 500px;
+    height: 50%; */
+    /* overflow: hidden; */
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+    
+  }
+  .login-btn{
+    background-color: #3f51b5;
+    width: 100%;
+    margin-left: -1000px;
+  }
+  .insta-logo{
+    position: relative;
+    margin-top: -120px;
+    margin-left: 1px;
+  } 
+  .insta-logo img{
+    /*top: -500px;
+    left: -300px; */
+    height: 618px;
+    /* margin-right: 150px; */
+  }
+  
+  .main-content {
+    width: 350px;
+    /* height: 35%; */
+    height: 300px;
+    /* margin: 10px auto; */
+    margin-left: 2px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  .header {
+    border: 0px solid #000;
+    margin-bottom: 5px;
+  }
+  
+  .header img {
+    height: 50px;
+    width: 175px;
+    margin: auto;
+    position: relative;
+    left: 40px;
+  }
+  
+  .input-1,
+  .input-2 {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  
+  .overlap-text {
+    position: relative;
+  }
+  
+  .overlap-text a {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: -1px;
+  }
+  
+  /* .btn {
+    width: 100%;
+    color: aqua;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    color: aqua;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+  } */
+  
+  .sub-content {
+    width: 350px;
+    height: 35px;
+    /* margin: 10px auto; */
+    margin-top: 70px;
+    margin-left: -50px;
+    border: 1px solid #e6e6e6;
+    /* padding: 20px 50px; */
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 350px;
+    height: 25%;
+    border: 1px solid #e6e6e6;
+    padding: 20px 50px;
+    
+  }
+  
+  .s-part {
+    text-align: center;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+  }
+  
+  .s-part a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+  }
+
+  
+  .slideshow { 
+    position: absolute;
+    width: 240px;
+    height: 427px;
+    top: 100px;
+    left: 151.5px;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .slideshow li { 
+    position: absolute;
+    /* top: -168.5px;
+    left: -511.5px; */
+
+    width: 240px;
+    height: 427px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 50s linear infinite; 
+  }
+
+  /* .slideshow li:nth-child(1) { 
+    /* background-image: url(	https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg) \
+  } */
+  .slideshow li:nth-child(2) { 
+    /* background-image: url(		https://www.instagram.com/static/images/homepage/screenshot2-2x.jpg/177140221987.jpg); */
+    animation-delay: 10s; 
+  }
+  .slideshow li:nth-child(3) { 
+    /* background-image: url(	https://www.instagram.com/static/images/homepage/screenshot4-2x.jpg/b27a108592d8.jpg); */
+    animation-delay: 20s; 
+  }
+  .slideshow li:nth-child(4) { 
+    /* background-image: url(https://www.instagram.com/static/images/homepage/screenshot3-2x.jpg/ff2c097a681e.jpg); */
+    animation-delay: 30s; 
+  }
+  .slideshow li:nth-child(5) { 
+    /* background-image: url(https://www.instagram.com/static/images/homepage/screenshot5-2x.jpg/5e04169b9308.jpg); */
+    animation-delay: 40s; 
+  }
+
+  @keyframes imageAnimation { 
+    0% { 
+      opacity: 0; 
+      animation-timing-function: ease-in;
+    }
+    10% {
+      opacity: 1;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      opacity: 1
+    }
+    30% {
+      opacity: 0
+    }
+  }
+/* Older browser support - .no-cssanimations class added by modernizr */
+.no-cssanimations .slideshow li {
+	opacity: 1;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

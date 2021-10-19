@@ -1,0 +1,58 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.profile-img {
+    height: 230px;
+    width: 230px;
+    border-radius: 30%;
+    margin-left: 15rem;
+    margin-top: 20px;
+}
+.profile-container .profile-container-postNo {
+    position: fixed;
+    overflow-x: visible;
+}
+.profile-container .profile-img-postNo {
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    border-radius: 30%;
+    margin-left: -15rem;
+    margin-top: 20px;
+}
+.heading-postNo{
+    margin-top: 2.2rem;
+    margin-right: -18.5rem;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+}
+.info{
+    flex-basis: 50%;
+    flex-grow: 0;
+}
+.heading{
+    margin-top: -14.5rem;
+    margin-right: -18.5rem;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+}
+.post-cnt{
+    margin-right: -18.5rem;
+    margin-top: 2px;
+}
+.sub-head{
+    font-size: 14px;
+    text-align: center;
+}
+.sub-head-email{
+    margin-top: -20px;
+    font-size: 14px;
+    text-align: center;
+}
